@@ -1394,7 +1394,7 @@ a.mobile-show.search-bar-icon:hover {
 
 ----------------------------------------------------------------------------- */
 .hero-bg {
-  background-image: url(/biofarm\ media/fruitslandscape2.jpg);
+  background-image: url(../../biofarm\ media/fruitslandscape2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -2464,6 +2464,8 @@ ul.social-link-team li a {
 
 .single-product-item {
   margin-bottom: 30px;
+  height: 620px;
+  /* height: auto; */
 }
 
 .product-image {
@@ -2816,4 +2818,24 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+.p-price {
+  color: #ca4040;
+  text-decoration: line-through;
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.wat {
+  margin-bottom: 78px;
+}
+.ap {
+  margin-bottom: 34px;
+}
+.or {
+  margin-bottom: 101px;
+}
+.mar {
+  margin-bottom: 14px;
 }

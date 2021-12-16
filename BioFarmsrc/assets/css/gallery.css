@@ -1,0 +1,91 @@
+.gallery-container {
+  width: calc(350px * 3 + 60px);
+  /* height: auto; */
+  height: 1271px;
+  margin: 162px auto 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  border-radius: 5px;
+  min-width: 350px;
+  min-height: 200px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rebeccapurple; */
+  box-shadow: 0 0 20px 11px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.item-one,
+.item-three,
+.item-five,
+.item-six,
+.item-seven {
+  height: 400px;
+}
+.kiwi {
+  width: 277px;
+  /* height: 166.2px; */
+}
+
+.item-two {
+  height: 417px;
+}
+.watermelon {
+  width: 233px;
+  height: 350px;
+}
+.lemons {
+  width: 277px;
+}
+
+.item-four {
+  height: 280px;
+  align-items: flex-end;
+  top: -17px;
+}
+.strawberry {
+  width: 238px;
+}
+.orange {
+  width: 277px;
+}
+.melon {
+  width: 269px;
+}
+.ban {
+  width: 420px;
+}
+.item-seven {
+  top: -138px;
+}
+.item-eight {
+  width: 730px;
+  height: 255px;
+}
+
+.stores {
+  width: 1110px;
+  display: flex;
+  margin: 0 auto 185px auto;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  height: 760px;
+}
+
+.one {
+  width: 519px;
+  height: 358px;
+}
+.three {
+  width: 519px;
+  height: 357px;
+}
+.two {
+  width: 542px;
+  height: 760px;
+}
